@@ -1,0 +1,16 @@
+title: Intervenant
+pages: false
+files: true
+fields:
+  title:
+    label: Prénom Nom
+    type:  text
+  titre: 
+    label: Titre
+    type: text
+  bio:
+    label: Bio
+    type:  textarea
+  alink: 
+    label: Link
+    type: url

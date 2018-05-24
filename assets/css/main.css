@@ -1,0 +1,73 @@
+html, body, .container-fluid, body>.container-fluid>.row {
+	height:100%;
+}
+.sidebar {
+	background-color: white;
+	min-height: 100%;
+	border-right: #FFFCF5 solid 2px;
+}
+.btn-simple {
+	font-size: 2rem;
+}
+.white {
+	background-color: white;
+}
+h1 {
+	font-weight: 700;
+	font-family: helvetica, arial, sans-serif;
+}
+p, li {
+	font-size: 18px;
+}
+.pt {
+	padding-top: 25px;
+}
+.pl {
+	padding-left: 25px;
+}
+.pr {
+	padding-right: 25px;
+}
+.pb {
+	padding-bottom: 50px;
+}
+.intervenant {
+	max-width: 200px;
+}
+.int {
+	margin-bottom: 20px;
+}
+.date h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 6em;
+}
+.date h3 {
+	margin-top: -20px;
+	margin-bottom: 0px;
+}
+.date h2 {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+@media(min-width:768px){
+	.scroll {
+	overflow: scroll;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	}
+	.left {
+		left: 0px;
+	}
+	.right {
+		right: 0px;
+	}
+}
+
+i.fa.cal {
+	font-size: 60% !important;
+	padding-right: 35px;
+	position: relative;
+	bottom: 10px;
+}
